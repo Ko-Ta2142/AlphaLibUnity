@@ -1,7 +1,7 @@
 <link href="_style.css" rel="stylesheet" type="text/css">
 
 <a name="top"></a>
-# AlphaLib for Unity
+# AlphaLib for Unity (beta ver)
 
 ![AlphaLib](img/alphalib01.png)
 
@@ -19,7 +19,7 @@
 
 * **モバイルフレンドリー**。おおよそDirectX9、PixelShader2.0、GLES2.0ぐらいの要求です。
 * 半透明に特化しています。（不透明ならもっと他に高速なライブラリがあるでしょう）
-* やっぱりTextureの座標指定はピクセルで、左上が0,0で使いたい。
+* Textureの座標指定はピクセルで、左上0,0で使いたい。
 * 描画をまとめるバッチング機能あります。
 * 固定Shader時代の大まかなブレンディングに対応。
 * 乗算色、スクリーン色(tintcolor)の2色混合ブレンディングをサポート。
@@ -59,6 +59,17 @@ The above copyright notice and this permission notice shall be included in all c
 
 The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the Software or the use or other dealings in the Software.
 ``````
+
+# Sample project
+GitでCloneしたフォルダをUnityで読み込みます。
+
+![](img/sample01.png)
+
+最初は空シーンを映し出すので、シーンを選択。
+
+![](img/sample02.png)
+
+サンプルのメインコードは`Main`のGameObjectにアタッチされています。
 
 <a name="setup"></a>
 # How to setup
